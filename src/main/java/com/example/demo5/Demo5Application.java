@@ -22,6 +22,21 @@ public class Demo5Application {
         return  args -> {
             Student hajara = new Student("Hajara", "Yahaya", "hajo@gmail.com", 13, "Abuja");
             studentRepository.save(hajara);
+
+            Student umar = new Student("Umar", "Yahaya", "farooq@gmail.com", 10, "Abuja");
+            studentRepository.save(umar);
+
+            Student khalid = new Student("Khalid", "Yahaya", "khalid@gmail.com", 17, "Abuja");
+            studentRepository.save(khalid);
+
+            Student abdulmalik = new Student("Abdulmalik", "Yahaya", "abdul@gmail.com", 20, "Abuja");
+            studentRepository.save(abdulmalik);
+
+            Student habib = new Student("Habib", "Yahaya", "habib@gmail.com", 23, "Abuja");
+            studentRepository.save(habib);
+
+            Student yahaya = new Student("Yahaya", "Yusuf", "yakson@gmail.com", 25, "Abuja");
+            studentRepository.save(yahaya);
         };
     }
 
